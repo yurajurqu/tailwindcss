@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="public/styles.css">
 </head>
 <body class="font-body">
-    <div class="text-gray-600 font-mono">
+    <div class="text-gray-600 font-mono grid md:grid-cols-3">
         <!-- wrapper de contenu tailwindcss -->
-        <div>
+        <div class="md:col-span-1">
             <nav>
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-300 text-geant">
@@ -42,7 +42,7 @@
                 </ul>
             </nav>
         </div>
-        <main class="px-16 py-6 bg-gray-200">
+        <main class="px-16 py-6 bg-gray-200 md:col-span-2">
             <div class="flex  justify-center md:justify-end">
                 <a href="#" class="text-primary">Se connecter</a>
                 <a href="#" class="text-primary ml-2">Creer un compte</a>
@@ -59,7 +59,7 @@
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-400" >
                     Les dernieres recettes
                 </h4>
-                <div class="mt-8">
+                <div class="mt-8 grid lg:grid-cols-3 gap-10" >
                     <!-- cartes de nos recettes -->
                     <div class="card">
                         <img class="w-full h-32 object-cover sm:h-48" src="/img/steak.jpg" alt="Steak Frites">
